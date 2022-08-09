@@ -7,8 +7,9 @@ console.log(props);
 
 
 return (<nav className="navbar navbar-expand-lg navbar-light bg-dark bg-gradient">
-    <div className="container m-0">
-        <a className="navbar-brand text-white" href="#">
+    <div className="container d-flex justify-content-between ">
+        <div className="container">
+            <a className="navbar-brand text-white" href="#">
             Start Bootstrap
         </a>
         <button
@@ -21,11 +22,11 @@ return (<nav className="navbar navbar-expand-lg navbar-light bg-dark bg-gradient
             aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
         </button>
-
+       </div>
         <div
-            className="collapse navbar-collapse"
+            className="collapse navbar-collapse container d-flex justify-content-end "
             id="navbarSupportedContent">
-            <ul className="navbar-nav position-absolute end-0 mx-5">
+            <ul className="navbar-nav position-absolute ">
                 <li className="nav-item active">
                     <a className="nav-link text-white" href="#">
                         Home <span className="sr-only">(current)</span>
