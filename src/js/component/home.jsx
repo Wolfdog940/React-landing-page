@@ -7,12 +7,12 @@ import Header from "./Header.jsx";
 import Body  from "./Body.jsx";
 import Bottom from "./Bottom.jsx";
 
-//create your first component
+
 const Home = () => {
 	return (
 		
 			<div className="">
-				<div className="container-fluid m-0 p-0 sticky-top">
+				<div className="container-fluid m-0 p-0 sticky-top ">
 			<Navbar />
 			
 			</div>
