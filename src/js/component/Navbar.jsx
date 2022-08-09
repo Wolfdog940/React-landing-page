@@ -6,29 +6,51 @@ const Navbar =(props)=>{
 console.log(props);
 
 
-return (
-    <div className="container-fluid d-flex  justify-content-between bg-dark m-0 ">
-    
-      <div className="mt-2 text-light">Start Bootstrap</div>
-      <ul className="nav">
+return (<nav className="navbar navbar-expand-lg navbar-light bg-dark bg-gradient">
+    <div className="container m-0">
+        <a className="navbar-brand text-white" href="#">
+            Start Bootstrap
+        </a>
+        <button
+            className="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+        </button>
 
-    <li className="nav-item">
-      <a className="nav-link active" aria-current="page" href="#">Activo</a>
-    </li>
-    <li className="nav-item">
-      <a className="nav-link" href="#">Export</a>
-    </li>
-    <li className="nav-item">
-      <a className="nav-link" href="#">Service</a>
-    </li>
-    <li className="nav-item">
-      <a className="nav-link ">Contac</a>
-    </li>
-  </ul>
-  </div>
-)
-
-
+        <div
+            className="collapse navbar-collapse"
+            id="navbarSupportedContent">
+            <ul className="navbar-nav position-absolute end-0 mx-5">
+                <li className="nav-item active">
+                    <a className="nav-link text-white" href="#">
+                        Home <span className="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li className="nav-item">
+                    <a className="nav-link text-white" href="#">
+                        About
+                    </a>
+                </li>
+                <li className="nav-item">
+                    <a className="nav-link text-white" href="#">
+                        Services
+                    </a>
+                </li>
+                <li className="nav-item">
+                    <a className="nav-link text-white" href="#">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>);
 }
+
 
 export default Navbar;
