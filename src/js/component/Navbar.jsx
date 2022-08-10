@@ -5,8 +5,8 @@ const Navbar = (props) => {
   console.log(props);
 
 
-  return (<nav class=" container-fluid navbar navbar-expand-lg navbar-dark bg-dark">
-    <div className="  container col-12 d-flex justify-content-around ">
+  return (<nav class=" container-fluid navbar navbar-expand-lg navbar-dark bg-dark ">
+    <div className="  container col-12 d-flex justify-content-around  ">
       <div className="container col-10"><a className="navbar-brand" href="#">Start Bootstrap</a></div>
 
       <div className="container col-2">
