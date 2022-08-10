@@ -17,9 +17,9 @@ const Home = () => {
 			
 			</div>
 			<div className="container "><Header/></div>
-			<div className="container "><Body/></div>
+			<div className="container  "><Body/></div>
 			<div className="container py-5 my-5"></div>
-			<div className="container-fluid"><Bottom/></div>
+			<div className="container-fluid m-0 p-0"><Bottom/></div>
 
 			
 			

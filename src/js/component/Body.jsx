@@ -11,11 +11,11 @@ const Body =()=>{
     
 
 return(
-    <div className="row p-0"id="carta">
-    {Cartas.map((item,i) =>( <div key={i} className="col">
-        <div className="container-fluid "> 
+    <div className=" container-fluid d-flex  justify-content-center p-0 container "id="carta">
+    {Cartas.map((item,i) =>( <div key={i} className="col-12 p-0 ">
+        <div className="container p-0 "> 
             
-            <div className="card" > 
+            <div className="card p-0 m-2" > 
    <img className="card-img-top" src={item.foto} alt="Card image cap" /> 
    <div className="card-body">
    <h5 className="card-title  text-center mb-2">{item.titulo}</h5>
